@@ -1,0 +1,32 @@
+.letter-editor-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-fluid{
+    flex-grow: 1;
+}
+
+.editor{
+    width: 100%;
+    height: auto;
+    border: solid 1px ;
+}
+
+.editorFooter{
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.draftsCol{
+    border: solid 1px;
+    height: auto;
+}
