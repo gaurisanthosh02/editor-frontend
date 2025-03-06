@@ -1,4 +1,4 @@
-import commonAPI from "./commonAPI.JS"
+import commonAPI from "./commonAPI.js"
 import SERVERURL from "./serverURL"
 
 export const saveDraft = async (reqBody) => {
